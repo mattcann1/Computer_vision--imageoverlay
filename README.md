@@ -1,4 +1,6 @@
 # Computer_vision--imageoverlay
+
+# Image Overlay
 This script merges Schlieren images and flame chemiluminescence images from a laser ignition and spark discharge ignition in a cavity-based supersonic combustor. The schlieren flow is non-reactive and does not show the flame that is captured in the chemiluminescence images. The goal of this program is to outline the flame in the chemiluminescence images and superimpose that contour onto the Schlieren images for analysis.  
 
 First the flame images are processed in three steps: 
@@ -13,3 +15,8 @@ The pixels in the image are then classified into flame and no flame using an use
 
 The resulting image.  
 ![](Figures/merged000200.PNG)  
+
+# Final Video
+
+This method is repeated for each image. The program then writes a video with each of the new images to show the flame development over the experiment. 
+
