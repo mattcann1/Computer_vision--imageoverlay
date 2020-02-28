@@ -5,12 +5,11 @@ First the flame images are processed in three steps:
         1) splits image into RGB, 
         2) Resize the image to match the schlieren 
         3) transforms the flame image into the same perspective of the schlieren image'''
-        
-Takes the files from two folders and produces the outline of the flame superimposed onto the schlieren image
-    Input: Filenames to be read of both folders
-    Output: New folder with merged images'''
-        '''Reads images from different folders given the path and file_names'''
-
+The final image is shown below.  
 ![](Figures/Flame000200.PNG)  
+
+The pixels in the image are then classified into flame and no flame using an user specified threshold. The contour of the flame can then be superimposed onto the corresponding Schlieren image as shown below.  
 ![](Figures/schlieren000200.PNG)  
+
+The resulting image.  
 ![](Figures/merged000200.PNG)  
